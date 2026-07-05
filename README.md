@@ -1,41 +1,59 @@
 # FRDR_Project
 
-> Fuzzy Rough-set based Dimensionality Reduction (FRDR)
+> **Fuzzy Rough-set based Dimensionality Reduction (FRDR)**
 
-## Overview
-FRDR_Project is a MATLAB research framework for fuzzy rough set based dimensionality reduction and feature selection. It aims to provide reproducible implementations, benchmark datasets, and experimental pipelines for SCI research.
+A MATLAB research framework for fuzzy rough set theory, feature selection, attribute reduction, and reproducible experiments.
 
-## Project Structure
-```
+---
+
+## ✨ Highlights
+- Novel FRDR algorithms
+- UCI benchmark datasets
+- Baseline comparison methods
+- Classification evaluation
+- Statistical significance tests
+- Publication-ready figures
+
+## 📖 Research Background
+This repository supports research on fuzzy rough set based dimensionality reduction, uncertainty modeling, and feature selection for high-dimensional decision systems.
+
+## 📂 Project Structure
+```text
 FRDR_Project/
-├── data/
 ├── algorithms/
-├── utils/
+├── data/
 ├── experiments/
+├── utils/
 ├── results/
 ├── figures/
 ├── docs/
 └── README.md
 ```
 
-## Features
-- MATLAB implementation of FRDR algorithms
-- UCI benchmark datasets
-- Baseline feature selection methods
-- Classification evaluation
-- Statistical significance tests
-- Figure generation
-
-## Requirements
-- MATLAB R2022a or later
-
-## Quick Start
+## 🚀 Quick Start
 1. Clone the repository.
-2. Add project folders to MATLAB path.
-3. Run experiment scripts in `experiments/`.
+2. Open MATLAB (R2022a+).
+3. Add all folders to the MATLAB path.
+4. Run scripts in `experiments/`.
 
-## Citation
-If you use this repository in your research, please cite the corresponding FRDR paper.
+## 📊 Experimental Evaluation
+- Classification accuracy
+- Reduction rate
+- Running time
+- Friedman/Wilcoxon statistical tests
 
-## License
+## 📚 Publications
+Related FRDR papers and future publications will be listed here.
+
+## 🛣️ Roadmap
+- FRDR core algorithm
+- Multiple reduction strategies
+- Multi-scale fuzzy rough models
+- Python implementation
+- GUI visualization
+
+## 🤝 Contributing
+Issues and pull requests are welcome.
+
+## 📄 License
 MIT License.
